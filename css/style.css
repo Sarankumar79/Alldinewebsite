@@ -33,10 +33,10 @@
 
 .back-to-top i {
     margin-top: 12px;
-display: flex;
-align-items: center;
-justify-content: center;
-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
 
 
@@ -117,8 +117,8 @@ color: #FFFFFF;
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-   color: #ff5900 !important;
-   /* border-bottom: 3px solid rgb(0, 0, 0); */
+    color: #ff5900 !important;
+    /* border-bottom: 3px solid rgb(0, 0, 0); */
 }
 
 .navbar-dark .navbar-brand img {
@@ -161,21 +161,21 @@ color: #FFFFFF;
 
 /* @media (min-width: 992px) { */
 
-    .navbar-dark {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 999;
-        background: linear-gradient(to right, #ff5900 60%, white 40%);
-        border-bottom: 1px solid rgb(152, 151, 151);
-    }
+.navbar-dark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: linear-gradient(to right, #ff5900 60%, white 40%);
+    border-bottom: 1px solid rgb(152, 151, 151);
+}
 
-    .sticky-top.navbar-dark {
-        position: fixed;
-        background: linear-gradient(to right, #ff5900 60%, white 40%);
-        border-bottom: 1px solid rgb(152, 151, 151);
-    }
+.sticky-top.navbar-dark {
+    position: fixed;
+    background: linear-gradient(to right, #ff5900 60%, white 40%);
+    border-bottom: 1px solid rgb(152, 151, 151);
+}
 
 
 
@@ -211,49 +211,58 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    section h2 {
-    font-size:20px;
+}
 
-    color:#FFFFFF;
-    }
-    section.download {
-    padding:120px 0;
-    position:relative;
+section h2 {
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+
+section.download {
+    padding: 120px 0;
+    position: relative;
     margin-top: 70px;
-margin-bottom: 100px !important;
-    }
-    section.download h2 {
-    margin-top:0;
-    font-size:20px;
-    color:#FFFFFF;
-    }
-    section.download p {
-  
-     
-        color:#FFFFFF;
-        }
+    margin-bottom: 50px !important;
+}
+
+section.download h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+section.download p {
+
+
+    color: #FFFFFF;
+}
+
+section.download .badges .badge-link {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+section.download .badges .badge-link:last-child {
+    margin-bottom: 0
+}
+
+section.download .badges .badge-link img {
+    height: 60px
+}
+
+@media (min-width:768px) {
     section.download .badges .badge-link {
-    display:block;
-    margin-bottom:25px;
-margin-left: 10px;
+        display: inline-block;
+        margin-bottom: 0
     }
-    section.download .badges .badge-link:last-child {
-    margin-bottom:0
-    }
-    section.download .badges .badge-link img {
-    height:60px
-    }
-    @media (min-width:768px) {
-    section.download .badges .badge-link {
-    display:inline-block;
-    margin-bottom:0
-    }
+
     section.download h2 {
-    font-size:46px;
-    color:#FFFFFF
+        font-size: 46px;
+        color: #FFFFFF
     }
-    }
+}
 
 .section-title {
     position: relative;
