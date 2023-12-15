@@ -98,6 +98,7 @@
 
 
 
+
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
@@ -105,24 +106,27 @@
     padding: 10px 0;
     font-size: 15px;
     font-weight: 900 !important;
-    color: var(--dark) !important;
+    color: var(--light) !important;
     text-transform: uppercase;
     outline: none;
     transition: .5s;
 }
 
+
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;
 }
 
+
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #ff5900 !important;
+    color: #000000 !important;
     /* border-bottom: 3px solid rgb(0, 0, 0); */
 }
 
+
 .navbar-dark .navbar-brand img {
-    height: 60px;
+    height: 55px;
     /* width: 160px; */
     transition: .5s;
     padding: 4px;
@@ -131,20 +135,23 @@
 
 
 .sticky-top.navbar-dark .navbar-brand img {
-    height: 60px;
+    height: 55px;
 }
 
 
 @media (max-width: 991.98px) {
 
+
     .sticky-top.navbar-dark {
         position: relative;
     }
+
 
     .navbar-dark .navbar-collapse {
         margin-top: 15px;
         border-top: 1px solid rgba(255, 255, 255, .1)
     }
+
 
     .navbar-dark .navbar-nav .nav-link,
     .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -152,12 +159,27 @@
         margin-left: 0;
     }
 
+
     .navbar-dark .navbar-brand img {
         max-height: 45px;
     }
 
 }
 
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #756e6e;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #600707;
+  }
+  
 
 /* @media (min-width: 992px) { */
 
@@ -167,14 +189,14 @@
     top: 0;
     left: 0;
     z-index: 999;
-    background: linear-gradient(to right, #ff5900 60%, white 40%);
-    border-bottom: 1px solid rgb(152, 151, 151);
+    background: linear-gradient(to right, #ff5900 100%, white 40%);
+    border-bottom: 1px solid rgb(204, 204, 204);
 }
 
 .sticky-top.navbar-dark {
     position: fixed;
-    background: linear-gradient(to right, #ff5900 60%, white 40%);
-    border-bottom: 1px solid rgb(152, 151, 151);
+    background: linear-gradient(to right, #ff5900 100%, white 40%);
+    border-bottom: 1px solid rgb(204, 204, 204);
 }
 
 
@@ -186,7 +208,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 540px;
+    height: 550px;
 }
 
 

@@ -80,7 +80,7 @@
 
             <div class=" py-5 bg-dark hero-header mb-5">
                 <div class="container my-5 py-5">
-                    <div class="row align-items-center g-5">
+                    <div class="row align-items-center">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft"><span style="color: #ff5900;">Enjoy
                                     Our</span><br>Delicious Foods</h1>
@@ -124,8 +124,8 @@
 
 
 
-      
-            
+
+
 
 
 
@@ -285,6 +285,8 @@
                         <p class="mb-0">"Finally a revolutionary and online ordering software for restaurants that we
                             have been dreaming of for so many years for online orders, easy to setup, low cost,
                             fantastic support, thank you Alldine!"</p>
+                        <i class="fas fa-quote-right" aria-hidden="true"
+                            style="font-size: 16px; padding-right: 10px;"></i>
                     </div>
 
 
@@ -315,6 +317,8 @@
                         </div>
                         <p class="mb-0">"Alldine has helped us minimize the time serving our customers. Not needing
                             to wait in line is very convenient for them."</p>
+                        <i class="fas fa-quote-right" aria-hidden="true"
+                            style="font-size: 16px; padding-right: 10px;"></i>
                     </div>
 
 
@@ -348,6 +352,8 @@
                         <p class="mb-0">"I would say that it is one of the best
                             applications for food order, because of its simplicity, ease of use, and above all,
                             because of the good communication with the support team.</p>
+                        <i class="fas fa-quote-right" aria-hidden="true"
+                            style="font-size: 16px; padding-right: 10px;"></i>
                     </div>
 
 
@@ -405,7 +411,7 @@
                                     </div>
                                     <div class="col-12 text-center">
                                         <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                                        <!-- <a class="btn btn-primary py-2 px-4 mt-2" href="">Read More</a> -->
+
                                     </div>
                                 </div>
                             </form>
@@ -417,7 +423,12 @@
         <!-- Contact End -->
 
 
-
+<!-- 
+        <form id="subscribe-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+        </form> -->
 
 
 
@@ -427,7 +438,6 @@
             data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
-
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">About</h4>
                         <p>Alldine is created by an MBA student at IIM Raipur.
@@ -439,7 +449,6 @@
                                 placeholder="Your email"> -->
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Useful Links</h4>
                         <a class="btn btn-link" href="">Home</a>
@@ -495,9 +504,56 @@
 
         <!-- Back to Top -->
         <a href="#" class=" back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
     </div>
+
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Include Mailchimp API library -->
+    <script src="https://cdn.jsdelivr.net/npm/mailchimp-api-v3@3.0.11/dist/mailchimp-api-v3.min.js"></script>
+
+
+    <script>
+
+
+
+        // const mailchimp = require('@mailchimp/mailchimp_marketing');
+        // mailchimp.setConfig({
+        //     apiKey: 'ecd5de541e0bd740fb9a17cbf6238922-us21',
+        //     server: 'YOUR_SERVER_PREFIX', 
+        // });
+        // async function subscribeUser(email) {   
+
+        //     try {
+        //         const response = await mailchimp.lists.addListMember(process.env.ead7c5b30a, {
+        //             email_address: email,
+        //             status: 'subscribed',
+        //         });
+
+        //         console.log('User subscribed:', response);
+        //         return response;
+        //     } catch (error) {
+        //         console.error('Error subscribing user:', error);
+        //         throw error;
+        //     }
+
+        // }
+
+
+        // subscribeUser('jabezraja3111997@gmail.com');
+
+
+</script>
+
+
+
+
+
+
+
+
+
 
 
 
