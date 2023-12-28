@@ -27,6 +27,7 @@
     
     
     // Dropdown on mouse hover
+
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
     const $dropdownMenu = $(".dropdown-menu");
@@ -105,6 +106,11 @@
     });
 
 
+
+
+
+    
+
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
@@ -127,7 +133,9 @@
         }
     });
     
-})(jQuery);
+})
+
+(jQuery);
 
 
 
