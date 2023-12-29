@@ -104,10 +104,11 @@
     position: relative;
     margin-left: 25px;
     padding: 10px 0;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 900 !important;
     color: var(--light) !important;
     text-transform: uppercase;
+    letter-spacing: 1px;
     outline: none;
     transition: .5s;
 }
@@ -141,7 +142,6 @@
 
 @media (max-width: 991.98px) {
 
-
     .sticky-top.navbar-dark {
         position: relative;
     }
@@ -169,17 +169,17 @@
 
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #756e6e;
-  }
-  
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+
+::-webkit-scrollbar-thumb:hover {
     background: #600707;
-  }
-  
+}
+
 
 /* @media (min-width: 992px) { */
 

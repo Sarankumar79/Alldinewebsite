@@ -103,11 +103,12 @@
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     margin-left: 25px;
-    padding: 10px 0;
-    font-size: 15px;
+    padding: 15px 0;
+    font-size: 14px;
     font-weight: 900 !important;
     color: var(--light) !important;
     text-transform: uppercase;
+    letter-spacing: 1px;
     outline: none;
     transition: .5s;
 }
@@ -169,17 +170,17 @@
 
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #756e6e;
-  }
-  
-  
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+
+::-webkit-scrollbar-thumb:hover {
     background: #600707;
-  }
-  
+}
+
 
 /* @media (min-width: 992px) { */
 
@@ -208,7 +209,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    height: 530px;
 }
 
 
@@ -229,7 +230,7 @@
 }
 
 section {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg_2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,12 +238,11 @@ section {
 
 section h2 {
     font-size: 20px;
-
     color: #FFFFFF;
 }
 
 section.download {
-    padding: 120px 0;
+    padding: 150px 0;
     position: relative;
     margin-top: 70px;
     margin-bottom: 50px !important;
