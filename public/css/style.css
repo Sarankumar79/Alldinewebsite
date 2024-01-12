@@ -873,6 +873,7 @@ section.download1 .badges .badge-link img {
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    box-shadow: none;
 }
 
 .footer .btn.btn-link::before {
