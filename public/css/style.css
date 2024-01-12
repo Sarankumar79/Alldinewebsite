@@ -389,6 +389,61 @@ section.download .badges .badge-link img {
 
 
 
+
+
+section.download2 {
+    background-color:#19191b !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px !important;
+}
+
+
+section.download2 h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+section.download2 p {
+
+    color: #FFFFFF;
+}
+
+section.download2 .badges .badge-link {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+section.download2 .badges .badge-link:last-child {
+    margin-bottom: 0
+}
+
+section.download2 .badges .badge-link img {
+    height: 60px
+}
+
+@media (min-width:768px) {
+    section.download2 .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0
+    }
+
+    section.download2 h2 {
+        font-size: 46px;
+        color: #FFFFFF
+    }
+}
+
+
+
 section.download1 {
     background: none !important;
     padding: 60px 0;
