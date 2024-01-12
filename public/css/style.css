@@ -477,6 +477,7 @@ section.download1 .badges .badge-link img {
 
 /*** Youtube Video ***/
 .video {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
     padding: 40px;
     position: relative;
     height: 100%;
@@ -485,7 +486,7 @@ section.download1 .badges .badge-link img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    border-radius: 5px;
 }
 
 .video .btn-play {
@@ -617,6 +618,9 @@ section.download1 .badges .badge-link img {
 .team-item .btn {
     border-radius: 38px 38px 0 0;
 }
+
+
+
 
 
 /*** Testimonial ***/
