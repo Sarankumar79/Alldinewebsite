@@ -59,11 +59,13 @@
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
 }
+
 #checkmark {
     font-weight: lighter;
     fill: #fff;
     margin: -3.5em auto auto 20px;
 }
+
 #status {
     font-weight: lighter;
     text-transform: uppercase;
@@ -72,6 +74,7 @@
     margin-top: -0.2em;
     margin-bottom: 0;
 }
+
 #lower-side {
     padding: 2em 2em 5em 2em;
     background: #fff;
@@ -86,6 +89,7 @@
     color: #757575;
     letter-spacing: 1px;
 }
+
 #contBtn {
     position: relative;
     top: 1.5em;
@@ -103,6 +107,7 @@
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+
 #contBtn:hover {
     -webkit-box-shadow: 0px 15px 30px rgba(60, 60, 60, 0.4);
     -moz-box-shadow: 0px 15px 30px rgba(60, 60, 60, 0.4);
@@ -256,6 +261,24 @@
 }
 
 
+.aboutimage {
+
+    display: block;
+
+}
+
+
+@media (max-width: 992px) {
+
+    .aboutimage {
+
+        display: none;
+
+    }
+
+}
+
+
 /* @media (min-width: 992px) { */
 
 .navbar-dark {
@@ -305,14 +328,13 @@
     color: rgba(255, 255, 255, .5);
 }
 
-section {
-  
-}
+section {}
 
 section h2 {
     font-size: 20px;
     color: #FFFFFF;
 }
+
 
 section.download {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
@@ -325,20 +347,22 @@ section.download {
     margin-bottom: 50px !important;
 }
 
+
 section.download h2 {
     margin-top: 0;
     font-size: 20px;
     color: #FFFFFF;
 }
 
-section.download p {
 
+section.download p {
 
     color: #FFFFFF;
 }
 
 section.download .badges .badge-link {
     display: block;
+    margin-top: 40px;
     margin-bottom: 25px;
     margin-left: 10px;
 }
@@ -362,7 +386,6 @@ section.download .badges .badge-link img {
         color: #FFFFFF
     }
 }
-
 
 
 
@@ -399,6 +422,8 @@ section.download1 .badges .badge-link img {
 }
 
 @media (min-width:768px) {
+ 
+
     section.download1 .badges .badge-link {
         display: inline-block;
         margin-bottom: 0
@@ -411,7 +436,14 @@ section.download1 .badges .badge-link img {
 }
 
 
-
+@media (max-width:768px) {
+    section.download1 {
+        background: none !important;
+        padding: 20px 0;
+        position: relative;
+        /* margin-top: 70px;
+        margin-bottom: 50px !important; */
+    }}
 
 .section-title {
     position: relative;
@@ -628,7 +660,17 @@ section.download1 .badges .badge-link img {
 .testimonial-carousel .owl-item.center .testimonial-item * {
     transition: .5s;
     background: var(--dark) !important;
-    
+
+}
+
+@media (max-width: 575px) {
+    .testimonial-carousel .owl-item .discount {
+        min-height: 500px !important;
+     
+    }
+    .video {
+        display: none !important;
+     }
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -651,7 +693,7 @@ section.download1 .badges .badge-link img {
 
 .testimonial-carousel .owl-dot {
     position: relative;
-    display: inline-block;
+    display: none;
     margin: 0 5px;
     width: 15px;
     height: 15px;
@@ -663,7 +705,7 @@ section.download1 .badges .badge-link img {
 .testimonial-carousel .owl-dot.active {
     background: var(--dark);
     border-color: var(--primary);
-    
+
 }
 
 
