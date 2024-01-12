@@ -720,8 +720,11 @@ section.download1 .badges .badge-link img {
 
 @media (max-width: 575px) {
     .testimonial-carousel .owl-item .discount {
-        min-height: 500px !important;
-     
+        height: 560px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center !important;
     }
     .video {
         display: none !important;
