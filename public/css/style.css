@@ -2,7 +2,7 @@
 :root {
     --primary: #ff5900;
     --light: #F1F8FF;
-    --dark: #0F172B;
+    --dark: #1b1c1d;
 }
 
 .ff-secondary {
@@ -95,7 +95,6 @@
     font-weight: normal;
     border-radius: 2px;
 }
-
 
 
 
@@ -214,7 +213,9 @@
 
 
 .hero-header img {
-    animation: imgRotate 50s linear infinite;
+    /* animation: imgRotate 50s linear infinite; */
+    width: 170px;
+    height: 60px;
 }
 
 
@@ -230,10 +231,7 @@
 }
 
 section {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  
 }
 
 section h2 {
@@ -242,9 +240,13 @@ section h2 {
 }
 
 section.download {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 150px 0;
     position: relative;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 50px !important;
 }
 
@@ -285,6 +287,56 @@ section.download .badges .badge-link img {
         color: #FFFFFF
     }
 }
+
+
+
+
+section.download1 {
+    background: none !important;
+    padding: 60px 0;
+    position: relative;
+    /* margin-top: 70px;
+    margin-bottom: 50px !important; */
+}
+
+section.download1 h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+section.download1 p {
+    color: #FFFFFF;
+}
+
+section.download1 .badges .badge-link {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+section.download1 .badges .badge-link:last-child {
+    margin-bottom: 0
+}
+
+section.download1 .badges .badge-link img {
+    height: 60px
+}
+
+@media (min-width:768px) {
+    section.download1 .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0
+    }
+
+    section.download1 h2 {
+        font-size: 46px;
+        color: #FFFFFF
+    }
+}
+
+
+
 
 .section-title {
     position: relative;
@@ -350,13 +402,15 @@ section.download .badges .badge-link img {
 
 /*** Youtube Video ***/
 .video {
+    padding: 40px;
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/8.jpg);
+    background-color: #19191b;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .video .btn-play {
@@ -494,12 +548,15 @@ section.download .badges .badge-link img {
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item.center .testimonial-item * {
     transition: .5s;
+    background: var(--dark) !important;
+    
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--primary) !important;
+    /* background: var(--dark) !important; */
     border-color: var(--primary) !important;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 8px;
+    border-radius: 20px;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -525,8 +582,9 @@ section.download .badges .badge-link img {
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
+    background: var(--dark);
     border-color: var(--primary);
+    
 }
 
 

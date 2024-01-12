@@ -1,6 +1,7 @@
-const express =  require('express');
+const express = require('express');
 const app = express();
 const cors = require('cors');
+
 
 app.use(
   cors({
@@ -8,12 +9,12 @@ app.use(
   })
 )
 
+
 app.use(express.static(__dirname + '/public'));
 
 const localhost = 3000;
 
 
-
-app.listen(localhost, ()=>{
-    console.log(`visit http://localhost:${localhost}/`);
+app.listen(localhost, () => {
+  console.log(`visit http://localhost:${localhost}/`);
 });
