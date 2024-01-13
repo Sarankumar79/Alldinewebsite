@@ -260,7 +260,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-md-offset-2">
-                        <h3 class="section-heading" style="color: #F1F8FF; font-family: poppins;">Alldine is beginning its
+                        <h3 class="section-heading" style="color: #F1F8FF; font-family: poppins;">Alldine is beginning
+                            its
                             operations in IIM Raipur from the 14th of
                             February. Download the app to enjoy maximum time with your loved one in a place of your
                             choice, not in a line waiting for your food in Mor Adda.</h3>
@@ -476,7 +477,7 @@
                 const user = { email1, phoneNumber };
                 console.log(email1);
                 // Send registration data to the server
-                fetch('http://localhost:4000/user/register', {
+                fetch('https://alline.onrender.com/user/register', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -485,6 +486,24 @@
                 })
                     .then(response => response.json())
                     .then(data => {
+                        console.log(email1);
+
+                        emailjs.init("UP5B-eL34y5Sm2qPn");
+
+
+    // const name = document.getElementById('name').value;
+
+    // const cc = document.getElementById('cc').value;
+    // const subject = document.getElementById('subject').value;
+    // const message = document.getElementById('message').value;
+    // const ccArray = cc.split(',').map(email => email.trim());
+
+    emailjs.send("service_r3kakbn", "template_t9f3fft", { email1, phoneNumber })
+        .then(function (response) {
+            console.log("Email sent successfully", response);
+        }, function (error) {
+            console.error("Email sending failed", error);
+        });
 
                         document.getElementById('card').style.display = "block";
 
@@ -502,10 +521,9 @@
                 document.getElementById('card').style.display = "none";
 
             }
-
-
-
         </script>
+
+
 
 
 
