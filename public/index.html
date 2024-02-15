@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T18XDLJFTX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T18XDLJFTX');
+</script>
+
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,8 +65,6 @@
 
 
 
-
-
         <div class=" position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark px-4 px-lg-5 py-3 py-lg-0">
 
@@ -86,8 +94,6 @@
                     </div>
                 </div>
             </nav>
-
-
 
 
 
@@ -491,19 +497,19 @@
                         emailjs.init("UP5B-eL34y5Sm2qPn");
 
 
-    // const name = document.getElementById('name').value;
+                        // const name = document.getElementById('name').value;
 
-    // const cc = document.getElementById('cc').value;
-    // const subject = document.getElementById('subject').value;
-    // const message = document.getElementById('message').value;
-    // const ccArray = cc.split(',').map(email => email.trim());
+                        // const cc = document.getElementById('cc').value;
+                        // const subject = document.getElementById('subject').value;
+                        // const message = document.getElementById('message').value;
+                        // const ccArray = cc.split(',').map(email => email.trim());
 
-    emailjs.send("service_r3kakbn", "template_t9f3fft", { email1, phoneNumber })
-        .then(function (response) {
-            console.log("Email sent successfully", response);
-        }, function (error) {
-            console.error("Email sending failed", error);
-        });
+                        emailjs.send("service_r3kakbn", "template_t9f3fft", { email1, phoneNumber })
+                            .then(function (response) {
+                                console.log("Email sent successfully", response);
+                            }, function (error) {
+                                console.error("Email sending failed", error);
+                            });
 
                         document.getElementById('card').style.display = "block";
 
